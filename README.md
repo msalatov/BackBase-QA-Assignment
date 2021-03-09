@@ -24,4 +24,5 @@ A simple native Android application that shows a city on a map. It provides a li
 * Bug reports are located here: app/reports/bug_reports
 * Overall test report is located here: app/reports/Overall_test_report
 * Espresso test report is located here: app/reports/espresso_report/test-reports/connected/index.html
-* Use './gradlew cAT' command from project root folder to run tests
+* Use './gradlew cAT' command from project root folder to run tests.
+  Do not forget to change sdk.dir in local.properties
