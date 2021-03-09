@@ -1,0 +1,30 @@
+#Title
+Cities list contains duplicate cities
+
+#Environment
+Pixel 3a, Android 9
+Environment independent
+
+#Steps to reproduce
+1. Run the application
+2. Wait until cities list is loaded
+3. Type 'porto' into search field
+4. Wait until search result is ready
+5. Find 'Porto, ES' city
+
+#Expected Result
+Cities list doesn't contain duplicate cities
+All cities are distinguishable
+
+#Actual Result
+Cities list contains cities with the same name and country
+
+#Severity/Priority
+Medium/Medium
+
+#Notes
+List contains three Porto, ES cities.
+Two nodes are the same city:
+    Duplicates should be removed.
+Third node is another city with the same name and country:
+    The node name should be more descriptive(region or coordinates can be added)

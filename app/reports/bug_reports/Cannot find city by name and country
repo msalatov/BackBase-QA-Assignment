@@ -1,0 +1,21 @@
+#Title
+Cannot find city by name and country
+
+#Environment
+Pixel 3a, Android 9
+Environment independent
+
+#Steps to reproduce
+1. Run the application
+2. Wait until cities list is loaded
+3. Type 'Aalburg, NL' into search field
+4. Wait until search result is ready
+
+#Expected Result
+Aalburg, NL city is displayed
+
+#Actual Result
+Search result is empty
+
+#Severity/Priority
+Medium/Medium

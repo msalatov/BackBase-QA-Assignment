@@ -1,0 +1,25 @@
+#Title
+Alphabetic sorting ignores country
+
+#Environment
+Pixel 3a, Android 9
+Environment independent
+
+#Steps to reproduce
+1. Run the application
+2. Wait until cities list is loaded
+3. Type 'porto' into search field
+4. Wait until search result is ready
+5. Check cities order
+
+#Expected Result
+Cities list is alphabetically order with considering name and country
+
+#Actual Result
+Cities list is alphabetically order only with considering name
+
+#Severity/Priority
+Medium/Medium
+
+#Notes
+The defect cause may be City class compareTo method realization.

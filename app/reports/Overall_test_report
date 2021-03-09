@@ -1,0 +1,31 @@
+The application has two critical defects:
+-The application is crashing when orientation changes to landscape.
+-Map cannot be loaded and city cannot be shown on the map.
+It should be fixed as soon as possible because it may have a big impact on user feeling of the application.
+
+Storing cities data in cities.json file doesn't look like proper way.
+It makes application heavier and more demanding.
+
+Alphabetic sorting ignores country.
+Thus, cities list doesn't look well-sorted.
+Searching can be awkward because of that.
+
+Also, searching can be inconvenient due to the lack of search by name and country.
+Searching by name and country returns empty result.
+
+Cities list contains cities with the same name and country.
+Duplicates should be removed and cities names should be more descriptive(region or coordinates can be added).
+
+The main purpose of tests is to cover all acceptance criteria and main functionality.
+
+#Suggestions:
+- For proper sorting can be created Comparator with name as a first key and country as a second key.
+- Map issue cause: maybe API key has some restrictions or Maps SDK for Android is disabled or limit of free requests are exceeded.
+- Delete duplicates: Set can be used for collecting cities and equals should be override(e.g. use coordinates for comparison).
+- Cities data can be loaded from server.
+- For testing Map functionality follow next steps:
+    Open https://console.cloud.google.com/
+    In APIs & Services click Library
+    Find Maps SDK for Android and enable it
+    In Credentials create new API key
+    And put it in AndroidManifest.xml android:value

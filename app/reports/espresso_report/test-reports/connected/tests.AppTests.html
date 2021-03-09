@@ -1,0 +1,497 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class tests.AppTests</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class tests.AppTests</h1>
+<div class="breadcrumbs">
+<a href="index.html">all</a> &gt; 
+<a href="tests.html">tests</a> &gt; AppTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">16</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">8</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1m29.14s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">50%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="checkCitiesListAfterCleaningSearchIsSortedAlphabetically"></a>
+<h3 class="failures">checkCitiesListAfterCleaningSearchIsSortedAlphabetically</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: Cities list after clearing search are not ordered alphabetically
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at tests.AppTests.checkCitiesListAfterCleaningSearchIsSortedAlphabetically(AppTests.java:73)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:549)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:395)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2145)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkCitiesListAfterClosingMapIsSortedAlphabetically"></a>
+<h3 class="failures">checkCitiesListAfterClosingMapIsSortedAlphabetically</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: Cities list after closing map are not ordered alphabetically
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at tests.AppTests.checkCitiesListAfterClosingMapIsSortedAlphabetically(AppTests.java:83)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:549)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:395)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2145)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkCitiesListIsSortedAlphabetically"></a>
+<h3 class="failures">checkCitiesListIsSortedAlphabetically</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: Default cities list are not ordered alphabetically
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at tests.AppTests.checkCitiesListIsSortedAlphabetically(AppTests.java:57)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:549)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:395)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2145)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkDeviceOrientationChangingOnMain"></a>
+<h3 class="failures">checkDeviceOrientationChangingOnMain</h3>
+<span class="code">
+<pre>java.lang.NullPointerException: Attempt to invoke virtual method 'android.widget.Filter app.com.mobileassignment.views.adapters.CityAdapter.getFilter()' on a null object reference
+at app.com.mobileassignment.views.MainActivity.onTextChanged(MainActivity.java:60)
+at android.widget.TextView.sendOnTextChanged(TextView.java:9754)
+at android.widget.TextView.setText(TextView.java:5733)
+at android.widget.TextView.setText(TextView.java:5571)
+at android.widget.EditText.setText(EditText.java:122)
+at android.widget.TextView.setText(TextView.java:5528)
+at android.widget.TextView.onRestoreInstanceState(TextView.java:5396)
+at android.view.View.dispatchRestoreInstanceState(View.java:18608)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.View.restoreHierarchyState(View.java:18586)
+at com.android.internal.policy.PhoneWindow.restoreHierarchyState(PhoneWindow.java:2135)
+at android.app.Activity.onRestoreInstanceState(Activity.java:1135)
+at android.app.Activity.performRestoreInstanceState(Activity.java:1090)
+at android.app.Instrumentation.callActivityOnRestoreInstanceState(Instrumentation.java:1317)
+at android.app.ActivityThread.handleStartActivity(ActivityThread.java:2953)
+at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:180)
+at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:165)
+at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:142)
+at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1808)
+at android.os.Handler.dispatchMessage(Handler.java:106)
+at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:53)
+at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:155)
+at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:129)
+at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:3)
+at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:2)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at android.os.Handler.handleCallback(Handler.java:873)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loop(Looper.java:193)
+at android.app.ActivityThread.main(ActivityThread.java:6669)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkDeviceOrientationChangingOnMap"></a>
+<h3 class="failures">checkDeviceOrientationChangingOnMap</h3>
+<span class="code">
+<pre>java.lang.NullPointerException: Attempt to invoke virtual method 'android.widget.Filter app.com.mobileassignment.views.adapters.CityAdapter.getFilter()' on a null object reference
+at app.com.mobileassignment.views.MainActivity.onTextChanged(MainActivity.java:60)
+at android.widget.TextView.sendOnTextChanged(TextView.java:9754)
+at android.widget.TextView.setText(TextView.java:5733)
+at android.widget.TextView.setText(TextView.java:5571)
+at android.widget.EditText.setText(EditText.java:122)
+at android.widget.TextView.setText(TextView.java:5528)
+at android.widget.TextView.onRestoreInstanceState(TextView.java:5396)
+at android.view.View.dispatchRestoreInstanceState(View.java:18608)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.View.restoreHierarchyState(View.java:18586)
+at com.android.internal.policy.PhoneWindow.restoreHierarchyState(PhoneWindow.java:2135)
+at android.app.Activity.onRestoreInstanceState(Activity.java:1135)
+at android.app.Activity.performRestoreInstanceState(Activity.java:1090)
+at android.app.Instrumentation.callActivityOnRestoreInstanceState(Instrumentation.java:1317)
+at android.app.ActivityThread.handleStartActivity(ActivityThread.java:2953)
+at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:180)
+at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:165)
+at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:142)
+at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1808)
+at android.os.Handler.dispatchMessage(Handler.java:106)
+at android.os.Looper.loop(Looper.java:193)
+at android.app.ActivityThread.main(ActivityThread.java:6669)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkForDuplicateCities"></a>
+<h3 class="failures">checkForDuplicateCities</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: Cities list contains duplicate cities expected:&lt;77&gt; but was:&lt;92&gt;
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.failNotEquals(Assert.java:287)
+at junit.framework.Assert.assertEquals(Assert.java:67)
+at junit.framework.Assert.assertEquals(Assert.java:199)
+at tests.AppTests.checkForDuplicateCities(AppTests.java:145)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:549)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:395)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2145)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkSearchByNameAndCountry"></a>
+<h3 class="failures">checkSearchByNameAndCountry</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: No cities found
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at tests.AppTests.checkSearchByNameAndCountry(AppTests.java:132)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:549)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:395)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2145)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkSearchResultIsSortedAlphabetically"></a>
+<h3 class="failures">checkSearchResultIsSortedAlphabetically</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: Search results are not ordered alphabetically
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at tests.AppTests.checkSearchResultIsSortedAlphabetically(AppTests.java:65)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:549)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:395)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2145)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Pixel_3a_API_28(AVD) - 9</th>
+</tr>
+</thead>
+<tr>
+<td>appCanBeOpened</td>
+<td class="success">passed (3.374s)</td>
+</tr>
+<tr>
+<td>checkBackButton</td>
+<td class="success">passed (3.718s)</td>
+</tr>
+<tr>
+<td>checkCapitalisationDoesNotAffect</td>
+<td class="success">passed (5.759s)</td>
+</tr>
+<tr>
+<td>checkCitiesListAfterCleaningSearchIsSortedAlphabetically</td>
+<td class="failures">failed (4.562s)</td>
+</tr>
+<tr>
+<td>checkCitiesListAfterClosingMapIsSortedAlphabetically</td>
+<td class="failures">failed (4.094s)</td>
+</tr>
+<tr>
+<td>checkCitiesListIsScrollable</td>
+<td class="success">passed (2.404s)</td>
+</tr>
+<tr>
+<td>checkCitiesListIsSortedAlphabetically</td>
+<td class="failures">failed (2.059s)</td>
+</tr>
+<tr>
+<td>checkCityCanBeOpenedOnMap</td>
+<td class="success">passed (3.888s)</td>
+</tr>
+<tr>
+<td>checkDeviceOrientationChangingOnMain</td>
+<td class="failures">failed (2.227s)</td>
+</tr>
+<tr>
+<td>checkDeviceOrientationChangingOnMap</td>
+<td class="failures">failed (22.117s)</td>
+</tr>
+<tr>
+<td>checkForDuplicateCities</td>
+<td class="failures">failed (4.665s)</td>
+</tr>
+<tr>
+<td>checkSearchByName</td>
+<td class="success">passed (5.233s)</td>
+</tr>
+<tr>
+<td>checkSearchByNameAndCountry</td>
+<td class="failures">failed (7.470s)</td>
+</tr>
+<tr>
+<td>checkSearchForUnrealCity</td>
+<td class="success">passed (7.603s)</td>
+</tr>
+<tr>
+<td>checkSearchResultIsScrollable</td>
+<td class="success">passed (5.821s)</td>
+</tr>
+<tr>
+<td>checkSearchResultIsSortedAlphabetically</td>
+<td class="failures">failed (4.143s)</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 6.5</a> at 9 Mar 2021, 15:08:48</p>
+</div>
+</div>
+</body>

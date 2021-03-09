@@ -1,0 +1,56 @@
+#Title
+Changing device orientation to landscape leads to app crash
+
+#Environment
+Pixel 3a, Android 9
+Environment independent
+
+#Steps to reproduce
+1. Run the application
+2. Wait until cities list is loaded
+3. Change device orientation to landscape
+
+#Expected Result
+Application is running without issues
+
+#Actual Result
+Application is crashing
+
+#Severity/Priority
+Critical/High
+
+#Notes
+The same behaviour on the map page
+
+#Log
+java.lang.NullPointerException: Attempt to invoke virtual method 'android.widget.Filter app.com.mobileassignment.views.adapters.CityAdapter.getFilter()' on a null object reference
+at app.com.mobileassignment.views.MainActivity.onTextChanged(MainActivity.java:60)
+at android.widget.TextView.sendOnTextChanged(TextView.java:9754)
+at android.widget.TextView.setText(TextView.java:5733)
+at android.widget.TextView.setText(TextView.java:5571)
+at android.widget.EditText.setText(EditText.java:122)
+at android.widget.TextView.setText(TextView.java:5528)
+at android.widget.TextView.onRestoreInstanceState(TextView.java:5396)
+at android.view.View.dispatchRestoreInstanceState(View.java:18608)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.ViewGroup.dispatchRestoreInstanceState(ViewGroup.java:3827)
+at android.view.View.restoreHierarchyState(View.java:18586)
+at com.android.internal.policy.PhoneWindow.restoreHierarchyState(PhoneWindow.java:2135)
+at android.app.Activity.onRestoreInstanceState(Activity.java:1135)
+at android.app.Activity.performRestoreInstanceState(Activity.java:1090)
+at android.app.Instrumentation.callActivityOnRestoreInstanceState(Instrumentation.java:1317)
+at android.app.ActivityThread.handleStartActivity(ActivityThread.java:2953)
+at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:180)
+at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:165)
+at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:142)
+at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1808)
+at android.os.Handler.dispatchMessage(Handler.java:106)
+at android.os.Looper.loop(Looper.java:193)
+at android.app.ActivityThread.main(ActivityThread.java:6669)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)

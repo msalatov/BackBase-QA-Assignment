@@ -1,0 +1,26 @@
+#Title
+City cannot be opened on map
+
+#Environment
+Pixel 3a, Android 9
+Environment independent
+
+#Steps to reproduce
+1. Run the application
+2. Wait until cities list is loaded
+3. Type 'Aalburg' into search field
+4. Wait until search result is ready
+5. Click on 'Aalburg, NL' city
+6. Wait until city is shown on the map
+
+#Expected Result
+Aalburg, NL city is shown on the map
+
+#Actual Result
+Map cannot be opened
+
+#Severity/Priority
+Critical/High
+
+#Notes
+Maybe API key has some restrictions or Maps SDK for Android is disabled
