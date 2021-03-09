@@ -1,0 +1,17 @@
+#Title
+Search for a non-existent city
+
+#Description
+On the main page of application cities list doesn't contain non-existent cities
+
+#Pre-conditions
+The application is installed
+
+#Steps
+1. Run the application
+2. Wait until cities list is loaded
+3. Type 'unreal city' into search field
+4. Wait until search result is loaded
+
+#Expected result
+Search result is empty

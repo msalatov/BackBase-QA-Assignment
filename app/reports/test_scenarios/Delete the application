@@ -1,0 +1,14 @@
+#Title
+Delete the application
+
+#Description
+Application can be deleted from the device successfully
+
+#Pre-conditions
+Device is running
+
+#Steps
+1. Delete the application from the device
+
+#Expected result
+The application is deleted successfully

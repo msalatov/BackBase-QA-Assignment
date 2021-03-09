@@ -1,0 +1,22 @@
+#Title
+Back button closes application
+
+#Description
+Back button returns from map page to main page and closes application then
+
+#Pre-conditions
+The application is installed
+
+#Steps
+1. Run the application
+2. Wait until cities list is loaded
+3. Scroll down to the 'Aalburg, NL' city
+4. Click on 'Aalburg, NL'
+5. Wait until map page is loaded
+6. Click back button
+7. Wait until cities list is loaded
+8. Click back button
+
+#Expected result
+First back button click returns user from map page to main page
+Second back button click closes the application

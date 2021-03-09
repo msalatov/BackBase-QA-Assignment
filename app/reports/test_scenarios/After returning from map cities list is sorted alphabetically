@@ -1,0 +1,21 @@
+#Title
+After returning from map cities list is sorted alphabetically
+
+#Description
+On the main page of application after returning from map page cities should be sorted in ascending alphabetical order
+
+#Pre-conditions
+The application is installed
+
+#Steps
+1. Run the application
+2. Wait until cities list is loaded
+3. Type 'A Estrada, ES' into search field
+4. Wait until search result is ready
+5. Click on the 'A Estrada, ES' city
+6. Wait until map page is opened
+7. Click back button
+8. Wait until cities list is loaded
+
+#Expected result
+Cities list is sorted in ascending alphabetical order

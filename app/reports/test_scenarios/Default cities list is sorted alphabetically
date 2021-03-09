@@ -1,0 +1,15 @@
+#Title
+Default cities list is sorted alphabetically
+
+#Description
+On the main page of application cities should be sorted in ascending alphabetical order
+
+#Pre-conditions
+The application is installed
+
+#Steps
+1. Run the application
+2. Wait until cities list is loaded
+
+#Expected result
+Cities list is sorted in ascending alphabetical order

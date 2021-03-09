@@ -1,0 +1,17 @@
+#Title
+Cities list is scrollable
+
+#Description
+On the main page of application cities list is scrollable
+
+#Pre-conditions
+The application is installed
+
+#Steps
+1. Run the application
+2. Wait until cities list is loaded
+3. Scroll down cities list
+4. Scroll up cities list
+
+#Expected result
+Cities list is scrollable

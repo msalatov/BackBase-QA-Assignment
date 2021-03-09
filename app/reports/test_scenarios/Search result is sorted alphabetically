@@ -1,0 +1,17 @@
+#Title
+Search result is sorted alphabetically
+
+#Description
+On the main page of application search result should be sorted in ascending alphabetical order
+
+#Pre-conditions
+The application is installed
+
+#Steps
+1. Run the application
+2. Wait until cities list is loaded
+3. Type 'porto' into search field
+4. Wait until search result is ready
+
+#Expected result
+Search result is sorted in ascending alphabetical order

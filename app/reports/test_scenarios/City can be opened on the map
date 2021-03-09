@@ -1,0 +1,17 @@
+#Title
+City can be opened on the map
+
+#Description
+On the main page of application you can click and open city on the map page
+
+#Pre-conditions
+The application is installed
+
+#Steps
+1. Run the application
+2. Wait until cities list is loaded
+3. Scroll down to the 'Aalburg, NL' city
+4. Click on 'Aalburg, NL'
+
+#Expected result
+City is shown on the map page

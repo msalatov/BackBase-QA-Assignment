@@ -1,0 +1,20 @@
+#Title
+Change device orientation on map page
+
+#Description
+On the map page of application change device orientation
+
+#Pre-conditions
+The application is installed
+
+#Steps
+1. Run the application
+2. Wait until cities list is loaded
+3. Scroll down to the 'Aalburg, NL' city
+4. Click on 'Aalburg, NL'
+5. Wait until map page is loaded
+6. Change device orientation to landscape and back to portrait
+
+#Expected result
+Application is running
+Map page shows city on the map

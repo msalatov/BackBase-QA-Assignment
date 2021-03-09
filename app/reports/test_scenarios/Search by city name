@@ -1,0 +1,18 @@
+#Title
+Search by city name
+
+#Description
+On the main page of application you can search city by its name
+
+#Pre-conditions
+The application is installed
+
+#Steps
+1. Run the application
+2. Wait until cities list is loaded
+3. Type 'Aalburg' into search field
+4. Wait until search result is loaded
+
+#Expected result
+At least one city is found
+All displayed cities start with 'Aalburg'

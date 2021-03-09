@@ -1,0 +1,21 @@
+#Title
+Capitalisation doesn't affect search result
+
+#Description
+On the main page of application capitalisation doesn't affect search result
+
+#Pre-conditions
+The application is installed
+
+#Steps
+1. Run the application
+2. Wait until cities list is loaded
+3. Type 'porto' into search field
+4. Wait until search result is loaded
+5. Save search result
+6. Clean search field
+7. Type 'PORTO' into search field
+8. Wait until search result is loaded
+
+#Expected result
+Both search results contain the same cities

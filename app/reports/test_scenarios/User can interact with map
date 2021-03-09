@@ -1,0 +1,20 @@
+#Title
+User can interact with map
+
+#Description
+On the map page of application you can interact with map
+
+#Pre-conditions
+The application is installed
+
+#Steps
+1. Run the application
+2. Wait until cities list is loaded
+3. Type 'Aalburg, NL' into search field
+4. Wait until search result is loaded
+5. Click on 'Aalburg, NL'
+6. Wait until map page is loaded
+7. Try to zoom in, zoom out, move map to the left and move map to the right
+
+#Expected result
+All actions were successful

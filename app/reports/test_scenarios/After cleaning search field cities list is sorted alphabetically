@@ -1,0 +1,19 @@
+#Title
+After cleaning search field cities list is sorted alphabetically
+
+#Description
+On the main page of application after searching and cleaning search field cities should be sorted in ascending alphabetical order
+
+#Pre-conditions
+The application is installed
+
+#Steps
+1. Run the application
+2. Wait until cities list is loaded
+3. Type 'porto' into search field
+4. Wait until search result is ready
+5. Clean search field
+6. Wait until cities list is loaded
+
+#Expected result
+Cities list is sorted in ascending alphabetical order
