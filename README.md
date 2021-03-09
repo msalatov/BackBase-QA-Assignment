@@ -17,3 +17,11 @@ A simple native Android application that shows a city on a map. It provides a li
 * The user of the application can search for specific city(ies) 
 * The user of the application can select a city to be displayed on the map
 * The user of the application can interact with the map (i.e zoom in/out, move to the left/right)
+
+
+# Tests Description
+* Test scenarios are located here: app/reports/test_scenarios
+* Bug reports are located here: app/reports/bug_reports
+* Overall test report is located here: app/reports/Overall_test_report
+* Espresso test report is located here: app/reports/espresso_report/test-reports/connected/index.html
+* Use './gradlew cAT' command from project root folder to run tests
